@@ -19,7 +19,7 @@ function currentLine(katzDeliLine)
     for(var i = 0; i < katzDeliLine.length; i++){
       current += `${i + 1}. ${katzDeliLine[i]}`
       if(i < katzDeliLine.length - 1){
-       current += ',';
+       current += ', ';
       }
     }
     return current;
